@@ -11,6 +11,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.a1hw4monthlifetracker.databinding.FragmentTaskBinding
 import com.example.a1hw4monthlifetracker.databinding.RegularDialogBinding
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
+import com.tbuonomo.viewpagerdotsindicator.DotsIndicator
 import java.util.*
 import javax.xml.datatype.DatatypeConstants.MONTHS
 
@@ -19,6 +20,7 @@ class TaskFragment : BottomSheetDialogFragment() {
     var task = ""
     var date = ""
     var regular = ""
+
 
     lateinit var binding: FragmentTaskBinding
     override fun onCreateView(

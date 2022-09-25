@@ -24,6 +24,7 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (requireActivity() as MainActivity).showToolbar()
         initClicker()
         arguments?.let {
             var list = ArrayList<TaskModel>()

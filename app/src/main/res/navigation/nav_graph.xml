@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph.xml"
-    app:startDestination="@id/homeFragment2">
+    app:startDestination="@id/boradFragment">
 
     <fragment
         android:id="@+id/homeFragment2"
@@ -15,4 +15,16 @@
         android:name="com.example.a1hw4monthlifetracker.TaskFragment"
         android:label="fragment_task"
         tools:layout="@layout/fragment_task" />
+    <fragment
+        android:id="@+id/boradFragment"
+        android:name="com.example.a1hw4monthlifetracker.BoradFragment"
+        android:label="fragment_borad"
+        tools:layout="@layout/fragment_borad" >
+        <action
+            android:id="@+id/action_boradFragment_to_taskFragment2"
+            app:destination="@id/taskFragment2"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/nav_graph.xml"/>
+    </fragment>
 </navigation>

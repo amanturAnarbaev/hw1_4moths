@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+        android:id="@+id/dots_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:dotsColor="@color/white"
+        app:dotsCornerRadius="8dp"
+        app:dotsSize="14dp"
+        app:dotsSpacing="54dp"
+        app:selectedDotColor="@color/black"
+        app:progressMode="true"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="98dp"
+        android:layout_height="360dp"
+        android:id="@+id/imge_board"
+        android:src="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        app:layout_constraintTop_toBottomOf="@id/imge_board"
+        android:textSize="36sp"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:text="Description"
+        android:textAlignment="center"
+        android:background="@color/purple_500"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="24dp"
+        android:paddingHorizontal="34.5dp"
+        android:paddingVertical="10dp"
+        android:text="Дальше"
+
+        android:textColor="@color/purple_500"
+        android:id="@+id/buttonNext"
+        android:textSize="24sp"
+
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

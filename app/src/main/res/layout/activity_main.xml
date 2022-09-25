@@ -9,7 +9,7 @@
     <Toolbar
         android:id="@+id/toolBar"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/purple_200"
+        android:background="@color/purple_500"
         android:title="Home"
         android:titleTextColor="@color/white"
         android:layout_width="match_parent"

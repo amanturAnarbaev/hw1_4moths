@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="350sp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_height="297dp"
+    android:layout_marginLeft="38dp"
     android:padding="12dp">
 
     <LinearLayout
@@ -18,7 +20,7 @@
             android:gravity="center"
             android:textSize="18sp"
             android:textColor="@color/white"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <RadioGroup
@@ -33,7 +35,7 @@
             android:textColor="@color/purple_500"
             android:buttonTint="@color/purple_500"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
         <RadioButton
             android:id="@+id/week"
@@ -42,7 +44,7 @@
             android:textColor="@color/purple_500"
             android:buttonTint="@color/purple_500"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
         <RadioButton
             android:id="@+id/month"
@@ -51,7 +53,7 @@
             android:textColor="@color/purple_500"
             android:buttonTint="@color/purple_500"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
         <RadioButton
             android:id="@+id/year"
@@ -60,7 +62,7 @@
             android:textColor="@color/purple_500"
             android:buttonTint="@color/purple_500"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
     </RadioGroup>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -73,11 +75,12 @@
             android:textSize="16sp"
             android:background="@color/white"
             android:textColor="@color/purple_500"
-app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="17dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-   >
+    >
 </LinearLayout>
