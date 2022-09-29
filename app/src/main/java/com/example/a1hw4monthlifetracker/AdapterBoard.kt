@@ -19,9 +19,14 @@ class AdapterBoard(private val list: ArrayList<BoardModel>,
             binding.buttonNext.setOnClickListener{
                 if(adapterPosition==list.size-1){
                 listener.itemClick()}
-                else{
-
+                else if (adapterPosition==list.size-3){
+                    listener.click1Page()
                 }
+                else if (adapterPosition==list.size-2){
+                    listener.click2Page()
+                }
+
+
 
             }
         }

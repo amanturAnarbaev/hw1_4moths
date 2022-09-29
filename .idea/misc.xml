@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/4 month 1 hw/app/src/main/res/drawable/rectangle_violet.xml" value="0.155" />
+        <entry key="..\:/4 month 1 hw/app/src/main/res/drawable/violet_rectangle.xml" value="0.155" />
         <entry key="..\:/4 month 1 hw/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/4 month 1 hw/app/src/main/res/layout/fragment_borad.xml" value="0.25416666666666665" />
-        <entry key="..\:/4 month 1 hw/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/4 month 1 hw/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/4 month 1 hw/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
         <entry key="..\:/4 month 1 hw/app/src/main/res/layout/fragment_task.xml" value="0.25416666666666665" />
         <entry key="..\:/4 month 1 hw/app/src/main/res/layout/item_board.xml" value="0.152" />
         <entry key="..\:/4 month 1 hw/app/src/main/res/layout/regular_dialog.xml" value="0.25416666666666665" />

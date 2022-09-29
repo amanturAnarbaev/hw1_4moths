@@ -1,42 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:orientation="vertical"
+    android:layout_height="match_parent"
     android:background="@color/white"
-    android:layout_height="match_parent">
+    android:orientation="vertical">
 
     <TextView
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="8dp"
         android:id="@+id/taskName"
-        android:textSize="24sp"
-        android:textAlignment="center"
-        android:text="Task name"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_violet"
+        android:text="Task name"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="24sp" />
 
     <LinearLayout
-        android:padding="6dp"
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp">
 
         <TextView
             android:id="@+id/date"
-            android:textSize="24sp"
-
-            android:text="Date"
-            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_violet"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:paddingHorizontal="8dp"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/regular"
-            android:textSize="24sp"
-            android:layout_weight="1"
-
-            android:text="Regular"
-            android:textAlignment="textEnd"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_violet"
+            android:text="Regular"
+            android:textColor="@color/black"
+            android:paddingHorizontal="8dp"
+            android:textAlignment="textEnd"
+            android:textSize="24sp" />
 
 
     </LinearLayout>
