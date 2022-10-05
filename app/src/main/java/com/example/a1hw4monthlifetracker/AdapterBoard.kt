@@ -13,7 +13,7 @@ class AdapterBoard(private val list: ArrayList<BoardModel>,
     inner class BoardViewHolder(private val binding: ItemBoardBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun Onbind(boardModel: BoardModel) {
-            binding.imgeBoard.load(boardModel.image)
+            //binding.imgeBoard.load(boardModel.image)
             binding.buttonNext.text = boardModel.button
             binding.description.text = boardModel.descriptin
             binding.buttonNext.setOnClickListener{
